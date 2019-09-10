@@ -1,0 +1,35 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Shivraj Prabhukhot</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Shivraj</foaf:givenname>
+<foaf:family_name>Prabhukhot</foaf:family_name>
+<foaf:status>Happy</foaf:status>
+<foaf:birthday>10/29/1990</foaf:birthday>
+<foaf:yahooChatID>Shiv@291818</foaf:yahooChatID>
+<foaf:mbox_sha1sum>bb525b32ad6c3f0e2e4e024983b20d6f1324a8ba</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:4438133947"/>
+<foaf:schoolHomepage rdf:resource="https://my.umbc.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>binit gajera</foaf:name>
+<foaf:mbox_sha1sum>73b8d84c0af774951e3fd6890260d284770bcb15</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>hirak ray</foaf:name>
+<foaf:mbox_sha1sum>de9310398d86e2f71e5746dd9ad1277792206074</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>rushabh mehta</foaf:name>
+<foaf:mbox_sha1sum>ed267926f84ab0de2f44cd7dbf2f935cf4245c25</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
